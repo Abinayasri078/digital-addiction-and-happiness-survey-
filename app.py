@@ -70,3 +70,7 @@ if pred == 1:
     st.success("😊 You seem HAPPY! Keep maintaining healthy habits.")
 else:
     st.error("😞 You seem UNHAPPY. Try a 30-min no-phone bedtime routine or reduce screen time.")
+
+
+url = "https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/raw/main/digital_addiction_happiness_300.xlsx"
+
