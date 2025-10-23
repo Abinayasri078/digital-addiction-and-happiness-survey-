@@ -9,7 +9,8 @@ st.set_page_config(page_title="Digital Addiction & Happiness Dashboard", layout=
 st.title("📱 Digital Addiction & Happiness Prediction Dashboard")
 
 # Load dataset directly from GitHub (raw link)
-url = "https://raw.githubusercontent.com/Abinayasri078/digital-addiction-and-happiness-survey/main/digital_addiction_happiness_300.xlsx"
+url = https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/raw/main/digital_addiction_happiness_300.xlsx
+"
 df = pd.read_excel(url)
 
 st.success("✅ Data loaded successfully!")
@@ -70,7 +71,3 @@ if pred == 1:
     st.success("😊 You seem HAPPY! Keep maintaining healthy habits.")
 else:
     st.error("😞 You seem UNHAPPY. Try a 30-min no-phone bedtime routine or reduce screen time.")
-
-
-url = "https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/raw/main/digital_addiction_happiness_300.xlsx"
-
