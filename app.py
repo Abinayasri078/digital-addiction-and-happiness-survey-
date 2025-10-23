@@ -7,7 +7,8 @@ st.set_page_config(page_title="Digital Addiction & Happiness Dashboard", layout=
 st.title("📱 Digital Addiction & Happiness Prediction Dashboard")
 
 # === Put your verified raw GitHub URL here (exact) ===
-url ="https://raw.githubusercontent.com/Abinayasri078/digital-addiction-and-happiness-survey/main/digital_addiction_happiness_300.xlsx"
+url ="url = "https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/blob/main/digital_addiction_happiness_300.xlsx"
+"
 df= pd.read_excel()
 gh repo clone Abinayasri078/digital-addiction-and-happiness-survey-
 
