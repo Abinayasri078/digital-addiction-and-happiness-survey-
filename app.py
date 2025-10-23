@@ -9,6 +9,7 @@ st.title("📱 Digital Addiction & Happiness Prediction Dashboard")
 # === Put your verified raw GitHub URL here (exact) ===
 url ="https://raw.githubusercontent.com/Abinayasri078/digital-addiction-and-happiness-survey/main/digital_addiction_happiness_300.xlsx"
 pd.read_excel()
+gh repo clone Abinayasri078/digital-addiction-and-happiness-survey-
 
 
 # Check URL before trying to read
