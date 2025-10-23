@@ -9,9 +9,10 @@ st.set_page_config(page_title="Digital Addiction & Happiness Dashboard", layout=
 st.title("📱 Digital Addiction & Happiness Prediction Dashboard")
 
 # Load dataset directly from GitHub (raw link)
-url = https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/raw/main/digital_addiction_happiness_300.xlsx
-"
-df = pd.read_excel(url)
+url =url = "https://github.com/Abinayasri078/digital-addiction-and-happiness-survey/raw/main/digital_addiction_happiness_300.xlsx"
+df = pd.read_excel(url, engine="openpyxl")
+
+
 
 st.success("✅ Data loaded successfully!")
 st.dataframe(df.head())
